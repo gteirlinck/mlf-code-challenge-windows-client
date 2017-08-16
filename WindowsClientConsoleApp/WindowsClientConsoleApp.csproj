@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9D77D35F-F0C2-4111-8B48-53D0379ED669}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsClient</RootNamespace>
-    <AssemblyName>WindowsClient</AssemblyName>
+    <ProjectGuid>{20A42AC4-64CB-4589-84A2-1BA891E68A5B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WindowsClientConsoleApp</RootNamespace>
+    <AssemblyName>WindowsClientConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,16 +43,9 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VisitsRecordsFilesProcessorService.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="VisitsRecordsFilesProcessorService.Designer.cs">
-      <DependentUpon>VisitsRecordsFilesProcessorService.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

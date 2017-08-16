@@ -1,6 +1,6 @@
 ﻿namespace WindowsClient
 {
-    partial class Service1
+    partial class VisitsRecordsFilesProcessorService
     {
         /// <summary> 
         /// Required designer variable.
